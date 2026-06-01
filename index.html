@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ananda Sweets - Modern Premium Indian Sweets</title>
+    <meta name="description" content="Bringing generations of sweetness to every celebration through authentic recipes and premium ingredients. Handcrafted Indian sweets made fresh daily.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <a href="#" class="logo">Ananda Sweets.</a>
+        <nav class="nav">
+          <a href="#shop">Shop</a>
+          <a href="#categories">Categories</a>
+          <a href="#story">Our Story</a>
+          <a href="#visit">Visit Store</a>
+        </nav>
+        <div class="header-actions">
+          <a href="#search" class="icon-btn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </a>
+          <a href="#profile" class="icon-btn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          </a>
+          <a href="#cart" class="icon-btn cart-btn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+            <span class="cart-count">0</span>
+          </a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero hero-fullscreen">
+      <div class="hero-bg" style="background-image: url('/images/festival_banner_1780333758010.png');"></div>
+      <canvas id="hero-canvas" class="hero-canvas"></canvas>
+      <div class="hero-overlay"></div>
+      <div class="container hero-container-centered">
+        <div class="hero-content reveal text-center">
+          <div class="hero-badge">
+            <span class="text text-light">Authentic Indian Sweets</span>
+          </div>
+          <h1 class="text-light">Generations of <br> <span class="text-highlight">Sweetness.</span></h1>
+          <p class="text-light">Handcrafted daily using traditional family recipes, pure ghee, and the finest ingredients sourced directly from Indian farms.</p>
+          <div class="hero-buttons center-buttons">
+            <a href="#best-sellers" class="btn btn-primary">Shop Collection</a>
+            <a href="#our-story" class="btn btn-secondary btn-outline-light">Our Story</a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <p>Scroll to Explore</p>
+      </div>
+      <div class="scallop-divider"></div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section id="best-sellers" class="section bg-white">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Our Best Sellers</h2>
+          <p>Loved by thousands of families for generations</p>
+        </div>
+        <div class="product-grid">
+          <!-- Kaju Katli -->
+          <div class="product-card reveal">
+            <div class="product-img-wrap">
+              <img src="/images/kaju_katli_1780333631857.png" alt="Kaju Katli">
+            </div>
+            <div class="product-info">
+              <h3>Premium Kaju Katli</h3>
+              <p>Made with premium cashews and edible silver foil.</p>
+              <div class="product-bottom">
+                <span class="price">₹950 / kg</span>
+                <button class="btn btn-primary btn-sm">Add</button>
+              </div>
+            </div>
+          </div>
+          <!-- Rasgulla -->
+          <div class="product-card reveal" style="transition-delay: 100ms;">
+            <div class="product-img-wrap">
+              <img src="/images/rasgulla_1780333651824.png" alt="Rasgulla">
+            </div>
+            <div class="product-info">
+              <h3>Spongy Rasgulla</h3>
+              <p>Soft cottage cheese balls in delicate rose syrup.</p>
+              <div class="product-bottom">
+                <span class="price">₹650 / kg</span>
+                <button class="btn btn-primary btn-sm">Add</button>
+              </div>
+            </div>
+          </div>
+          <!-- Gulab Jamun -->
+          <div class="product-card reveal" style="transition-delay: 200ms;">
+            <div class="product-img-wrap">
+              <img src="/images/gulab_jamun_1780333674675.png" alt="Gulab Jamun">
+            </div>
+            <div class="product-info">
+              <h3>Royal Gulab Jamun</h3>
+              <p>Rich, warm, melt-in-mouth milk solids dumplings.</p>
+              <div class="product-bottom">
+                <span class="price">₹750 / kg</span>
+                <button class="btn btn-primary btn-sm">Add</button>
+              </div>
+            </div>
+          </div>
+          <!-- Motichoor Ladoo -->
+          <div class="product-card reveal" style="transition-delay: 300ms;">
+            <div class="product-img-wrap">
+              <img src="/images/ladoo_1780333698671.png" alt="Motichoor Ladoo">
+            </div>
+            <div class="product-info">
+              <h3>Motichoor Ladoo</h3>
+              <p>Tiny golden pearls crafted into delicious round laddoos.</p>
+              <div class="product-bottom">
+                <span class="price">₹700 / kg</span>
+                <button class="btn btn-primary btn-sm">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Bento Grid -->
+    <section class="section bg-cream">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>The Ananda Standard</h2>
+          <p>Why we're the trusted choice for your family</p>
+        </div>
+        <div class="bento-grid">
+          <div class="bento-card card-large reveal">
+            <img class="bento-img" src="/images/bento_fresh_1780334871190.png" alt="Made Fresh Daily">
+            <div class="bento-content">
+              <h3>Made Fresh Daily</h3>
+              <p>Our chefs begin at 4 AM every morning so you can enjoy sweets that are never more than a few hours old.</p>
+            </div>
+          </div>
+          <div class="bento-card reveal">
+            <img class="bento-img" src="/images/bento_ingredients_1780334891586.png" alt="Premium Ingredients">
+            <div class="bento-content">
+              <h3>Premium Ingredients</h3>
+              <p>Sourced directly from the finest farms in India.</p>
+            </div>
+          </div>
+          <div class="bento-card reveal">
+            <img class="bento-img" src="/images/bento_hygiene_1780334908910.png" alt="Hygienic Kitchen">
+            <div class="bento-content">
+              <h3>Hygienic Kitchen</h3>
+              <p>State-of-the-art sterile preparation spaces.</p>
+            </div>
+          </div>
+          <div class="bento-card reveal">
+            <img class="bento-img" src="/images/bento_delivery_1780334926697.png" alt="Fast Delivery">
+            <div class="bento-content">
+              <h3>Fast Delivery</h3>
+              <p>Delivered fresh to your doorstep safely.</p>
+            </div>
+          </div>
+          <div class="bento-card reveal">
+            <img class="bento-img" src="/images/bento_recipes_1780335208137.png" alt="Authentic Recipes">
+            <div class="bento-content">
+              <h3>Authentic Recipes</h3>
+              <p>Generations of traditional family recipes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="section bg-white">
+      <div class="container">
+        <div class="section-header reveal text-center">
+          <h2>Shop by Category</h2>
+          <div style="margin-top: 1rem; color: #A68A12;">
+            <svg viewBox="0 0 100 20" width="120" height="24">
+               <circle cx="50" cy="10" r="4" fill="currentColor"/>
+               <line x1="10" y1="10" x2="40" y2="10" stroke="currentColor" stroke-width="1.5"/>
+               <line x1="60" y1="10" x2="90" y2="10" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+        </div>
+        <div class="category-grid">
+          <a href="#" class="category-card reveal">
+            <div class="cat-img-wrapper">
+              <div class="cat-bg" style="background-image: url('/images/cat_bengali_1780335362270.png');"></div>
+            </div>
+            <h3>Bengali</h3>
+          </a>
+          <a href="#" class="category-card reveal">
+            <div class="cat-img-wrapper">
+              <div class="cat-bg" style="background-image: url('/images/cat_dry_fruit_1780335383533.png');"></div>
+            </div>
+            <h3>Dry Fruits</h3>
+          </a>
+          <a href="#" class="category-card reveal">
+            <div class="cat-img-wrapper">
+              <div class="cat-bg" style="background-image: url('/images/cat_milk_1780335401795.png');"></div>
+            </div>
+            <h3>Milk Sweets</h3>
+          </a>
+          <a href="#" class="category-card reveal">
+            <div class="cat-img-wrapper">
+              <div class="cat-bg" style="background-image: url('/images/cat_gift_1780335424582.png');"></div>
+            </div>
+            <h3>Gift Boxes</h3>
+          </a>
+          <a href="#" class="category-card reveal">
+            <div class="cat-img-wrapper">
+              <div class="cat-bg" style="background-image: url('/images/ladoo_1780333698671.png');"></div>
+            </div>
+            <h3>Ladoos</h3>
+          </a>
+          <a href="#" class="category-card reveal">
+            <div class="cat-img-wrapper">
+              <div class="cat-bg" style="background-image: url('/images/kaju_katli_1780333631857.png');"></div>
+            </div>
+            <h3>Kaju Katli</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story & Process -->
+    <section id="our-story" class="section bg-cream">
+      <div class="container split-section">
+        <div class="split-content reveal">
+          <h2>Our Process</h2>
+          <p>Every bite tells a story of tradition, patience, and absolute perfection.</p>
+          <ul class="process-list">
+            <li><strong>1. Ingredient Selection:</strong> Only the finest nuts, pure ghee, and saffron.</li>
+            <li><strong>2. Traditional Preparation:</strong> Slow-cooked to bring out authentic flavors.</li>
+            <li><strong>3. Quality Inspection:</strong> Hand-checked for consistency and taste.</li>
+            <li><strong>4. Careful Packaging:</strong> Packed to preserve ultimate freshness.</li>
+          </ul>
+        </div>
+        <div class="split-image reveal">
+          <img src="/images/workshop_1780333739132.png" alt="Our Workshop">
+        </div>
+      </div>
+    </section>
+
+    <!-- Festival Collection -->
+    <section class="festival-banner reveal">
+      <img src="/images/festival_banner_1780333758010.png" alt="Festival Collection" class="festival-bg">
+      <div class="festival-content">
+        <h2>The Festive Collection</h2>
+        <p>Curated boxes of joy for weddings, corporate gifting, and festivals.</p>
+        <button class="btn btn-primary">Pre-order Now</button>
+      </div>
+    </section>
+
+    <!-- Visit Store -->
+    <section id="visit-store" class="section bg-white">
+      <div class="container split-section reverse">
+        <div class="split-content reveal">
+          <h2>Visit Our Store</h2>
+          <p>Experience the aroma of pure ghee and fresh sweets in person.</p>
+          <div class="store-details">
+            <p><strong>Address:</strong> 124 Heritage Avenue, Sweet City, SC 40012</p>
+            <p><strong>Hours:</strong> Mon - Sun, 8:00 AM - 10:00 PM</p>
+            <p><strong>Contact:</strong> +91 98765 43210</p>
+          </div>
+          <button class="btn btn-secondary">Get Directions</button>
+        </div>
+        <div class="split-image reveal">
+          <img src="/images/storefront_1780333714518.png" alt="Our Storefront">
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="trust-section bg-white">
+      <div class="container trust-container">
+        <div class="trust-header reveal">
+          <h2>You Can Trust Us</h2>
+          <p>Clean, Authentic & Sustainable</p>
+        </div>
+        <div class="trust-badges reveal">
+          <!-- Premium -->
+          <div class="trust-badge">
+            <svg viewBox="0 0 100 100" class="gold-icon">
+              <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4"/>
+              <circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" stroke-width="1"/>
+              <path d="M50 25 L55 38 L70 38 L58 48 L62 62 L50 53 L38 62 L42 48 L30 38 L45 38 Z" fill="currentColor"/>
+              <path id="curve-premium" fill="transparent" d="M 18,50 A 32,32 0 1,1 82,50 A 32,32 0 1,1 18,50" />
+              <text font-size="10" fill="currentColor" font-weight="600" letter-spacing="2">
+                <textPath href="#curve-premium" startOffset="0%" text-anchor="start">PREMIUM * QUALITY *</textPath>
+              </text>
+            </svg>
+          </div>
+          <!-- Since 1988 -->
+          <div class="trust-badge">
+            <svg viewBox="0 0 100 100" class="gold-icon">
+              <path d="M 25 80 C 5 60 15 20 45 15" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M 75 80 C 95 60 85 20 55 15" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M 25 80 L 15 70 L 25 65 Z" fill="currentColor"/>
+              <path d="M 75 80 L 85 70 L 75 65 Z" fill="currentColor"/>
+              <path d="M 18 60 L 8 50 L 22 45 Z" fill="currentColor"/>
+              <path d="M 82 60 L 92 50 L 78 45 Z" fill="currentColor"/>
+              <path d="M 16 40 L 10 30 L 25 28 Z" fill="currentColor"/>
+              <path d="M 84 40 L 90 30 L 75 28 Z" fill="currentColor"/>
+              <text x="50" y="45" font-size="12" fill="currentColor" text-anchor="middle" font-weight="600">SINCE</text>
+              <text x="50" y="65" font-size="22" fill="currentColor" font-weight="800" text-anchor="middle">1988</text>
+            </svg>
+          </div>
+          <!-- Eco Friendly -->
+          <div class="trust-badge">
+            <svg viewBox="0 0 100 100" class="gold-icon">
+              <path d="M50 5 C 55 5 55 12 60 12 C 65 12 65 5 70 5 C 75 5 75 12 80 12 C 85 12 85 20 90 20 C 95 20 95 28 95 33 C 95 38 88 38 88 43 C 88 48 95 48 95 53 C 95 58 88 58 88 63 C 88 68 95 68 95 73 C 95 78 88 78 88 83 C 88 88 80 88 80 93 C 75 93 75 86 70 86 C 65 86 65 93 60 93 C 55 93 55 86 50 86 C 45 86 45 93 40 93 C 35 93 35 86 30 86 C 25 86 25 93 20 93 C 15 93 15 85 10 85 C 5 85 5 77 5 72 C 5 67 12 67 12 62 C 12 57 5 57 5 52 C 5 47 12 47 12 42 C 12 37 5 37 5 32 C 5 27 12 27 12 22 C 12 17 20 17 20 12 C 25 12 25 5 30 5 C 35 5 35 12 40 12 C 45 12 45 5 50 5 Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M 50 75 L 50 45 C 50 25 25 25 25 45 C 25 55 50 75 50 75 Z" fill="currentColor"/>
+              <path d="M 50 75 C 50 75 75 55 75 45 C 75 25 50 25 50 45" fill="none" stroke="currentColor" stroke-width="4"/>
+              <text x="50" y="85" font-size="12" fill="currentColor" font-weight="800" text-anchor="middle">ECO FRIENDLY</text>
+            </svg>
+          </div>
+          <!-- ISO Certified -->
+          <div class="trust-badge">
+            <svg viewBox="0 0 100 100" class="gold-icon">
+              <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="1"/>
+              <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4"/>
+              <circle cx="50" cy="50" r="34" fill="none" stroke="currentColor" stroke-width="1"/>
+              <text x="50" y="42" font-size="10" fill="currentColor" text-anchor="middle" font-weight="600" letter-spacing="1">CERTIFIED</text>
+              <text x="50" y="62" font-size="20" fill="currentColor" font-weight="800" text-anchor="middle">ISO</text>
+              <text x="50" y="75" font-size="8" fill="currentColor" text-anchor="middle" letter-spacing="1">COMPANY</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+      
+      <div class="ornamental-border-wrap">
+        <div class="ornamental-shapes reveal">
+          <svg viewBox="0 0 100 100" class="ornament ornament-gold"><circle cx="50" cy="50" r="45" fill="currentColor"/><path d="M50 10 L55 45 L90 50 L55 55 L50 90 L45 55 L10 50 L45 45 Z" fill="#fff"/></svg>
+          <svg viewBox="0 0 100 100" class="ornament ornament-red"><circle cx="50" cy="50" r="45" fill="currentColor"/><circle cx="50" cy="50" r="25" fill="none" stroke="#fff" stroke-width="4"/><path d="M50 15 A 15 15 0 0 1 50 85 A 15 15 0 0 1 50 15" fill="none" stroke="#fff" stroke-width="4"/><path d="M15 50 A 15 15 0 0 1 85 50 A 15 15 0 0 1 15 50" fill="none" stroke="#fff" stroke-width="4"/></svg>
+          <svg viewBox="0 0 100 100" class="ornament ornament-gold"><polygon points="50,10 90,90 10,90" fill="currentColor"/><polygon points="50,30 75,80 25,80" fill="none" stroke="#fff" stroke-width="3"/><circle cx="50" cy="65" r="5" fill="#fff"/></svg>
+          <svg viewBox="0 0 100 100" class="ornament ornament-red"><circle cx="50" cy="50" r="45" fill="currentColor"/><path d="M50 50 C 50 10 90 10 50 50 C 90 90 50 90 50 50 C 50 90 10 90 50 50 C 10 10 50 10 50 50" fill="#fff"/></svg>
+          <svg viewBox="0 0 100 100" class="ornament ornament-gold"><circle cx="50" cy="50" r="45" fill="currentColor"/><path d="M50 10 L55 45 L90 50 L55 55 L50 90 L45 55 L10 50 L45 45 Z" fill="#fff"/></svg>
+          <svg viewBox="0 0 100 100" class="ornament ornament-red"><circle cx="50" cy="50" r="45" fill="currentColor"/><circle cx="50" cy="50" r="25" fill="none" stroke="#fff" stroke-width="4"/><path d="M50 15 A 15 15 0 0 1 50 85 A 15 15 0 0 1 50 15" fill="none" stroke="#fff" stroke-width="4"/><path d="M15 50 A 15 15 0 0 1 85 50 A 15 15 0 0 1 15 50" fill="none" stroke="#fff" stroke-width="4"/></svg>
+          <svg viewBox="0 0 100 100" class="ornament ornament-gold"><polygon points="50,10 90,90 10,90" fill="currentColor"/><polygon points="50,30 75,80 25,80" fill="none" stroke="#fff" stroke-width="3"/><circle cx="50" cy="65" r="5" fill="#fff"/></svg>
+          <svg viewBox="0 0 100 100" class="ornament ornament-red"><circle cx="50" cy="50" r="45" fill="currentColor"/><path d="M50 50 C 50 10 90 10 50 50 C 90 90 50 90 50 50 C 50 90 10 90 50 50 C 10 10 50 10 50 50" fill="#fff"/></svg>
+        </div>
+        <div class="ornamental-diamonds"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-top">
+        <a href="#" class="logo text-white footer-logo">Ananda Sweets.</a>
+      </div>
+      
+      <div class="container footer-grid-new">
+        <div class="footer-col">
+          <h3>Categories</h3>
+          <a href="#">Sweets</a>
+          <a href="#">Namkeen</a>
+          <a href="#">Ladoo</a>
+          <a href="#">Cookies</a>
+          <a href="#">Desi Ghee</a>
+          <a href="#">Dry Fruits</a>
+        </div>
+        <div class="footer-col">
+          <h3>Account</h3>
+          <a href="#">My Account</a>
+          <a href="#">Track Your Order</a>
+        </div>
+        <div class="footer-col">
+          <h3>Our Brands</h3>
+          <a href="#">About Us</a>
+          <a href="#">Our Outlet</a>
+          <a href="#">Restaurant Menu</a>
+          <a href="#">Cakes</a>
+          <a href="#">Catalogue</a>
+        </div>
+        <div class="footer-col">
+          <h3>Customer Service</h3>
+          <a href="#">Contact</a>
+          <a href="#">Terms And Conditions</a>
+          <a href="#">Shipping Policy</a>
+          <a href="#">Return And Exchange Policy</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-col assist-col">
+          <h2>We'd be happy<br>to assist you!</h2>
+          <div class="contact-info">
+            <p class="label">Timing :</p>
+            <p>Monday To Saturday<br>9:00 AM to 10:30 PM</p>
+          </div>
+          <div class="contact-info">
+            <p class="label">Email :</p>
+            <a href="mailto:care@anandasweets.in" class="email-link">care@anandasweets.in</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-divider-pattern"></div>
+
+      <div class="container footer-methods">
+        <div class="payment-methods">
+          <h4>Payment Methods</h4>
+          <div class="payment-icons">
+             <span class="pay-icon">VISA</span>
+             <span class="pay-icon">MasterCard</span>
+             <span class="pay-icon">RuPay</span>
+             <span class="pay-icon">UPI</span>
+             <span class="pay-icon">Maestro</span>
+          </div>
+        </div>
+        <div class="social-methods">
+          <h4>Follow Us On</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+            <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            <a href="#top" class="back-to-top" aria-label="Back to top">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Copyright. Ananda Sweets. All Rights Reserved</p>
+        <p>Crafted by <strong>Studio</strong></p>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
